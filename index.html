@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="ζlabs · Software Engineering | Scientific Computing | Consulting">
+        <meta name="author" content="Uli Kastlunger">
+
+        <title>ZetaLabs IT Services</title>
+
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-white bg-white">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#"><img src="zetalabs_logo.svg" alt="ZetaLabs Logo"/></a>
+                <nav class="mr-md-3">
+                    <a class="p-2 text-dark" href="#services">Services</a>
+                    <a class="p-2 text-dark" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </nav>
+
+        <main>
+
+            <div id="spacediv">
+                <div class="container" style="margin-top: 40px;">
+                    <h1>> <span style="color: #34e2e2">print</span>(<span style="color: #ad7fa8;">'Hello world'</span>)</h1>
+                    <div><h1 style="margin-top: 40px; margin-bottom: 40px;"><a href="https://en.wikipedia.org/wiki/Hello">Hello</a><a href="https://en.wikipedia.org/wiki/Outer_space"> </a><a href="https://en.wikipedia.org/wiki/World"><img src="earth.png" alt="Mother Earth"/></a></h1></div>
+                    <h1 style="margin-top: 16px;">> <a class="btn btn-success btn-lg" href="#contact" role="button">Get in touch.</a></h1>
+                </div>
+            </div>
+
+            <div class="container cards" id="services">
+                <div class="row">
+                    <div class="col mx-4">
+                        <div style="text-align: center; margin-bottom: 20px;"><img style="height: 50px;" src="dev.svg" alt="Dev Symbol"/></div>
+                        <h4 style="color: #800000">Software Engineering</h4>
+                        <p style="text-align: justify;">
+                            We have long-term experience in planning, developing and deploying custom applications and services in the domain of
+                            scientific data analysis in general and GIS and earth observation in particular.
+                        </p>
+                        <p style="text-align: center;"><a class="btn btn-secondary" href="#dev" role="button">More</a></p>
+                    </div>
+                    <div class="col mx-4">
+                        <div style="text-align: center; margin-bottom: 20px;"><img style="height: 50px;" src="proc.svg" alt="Compute Symbol" /></div>
+                        <h4 style="color: #800000">Scientific Computing</h4>
+                        <p style="text-align: justify;">
+                            More and more data has been made available in recent years.
+                            ZetaLabs provides solutions to analyze and visualize your datasets using your existing infrastructure or by hosting custom applications on your behalf.
+                        </p>
+                        <p style="text-align: center;"><a class="btn btn-secondary" href="#processing" role="button">More</a></p>
+                    </div>
+                    <div class="col mx-4">
+                        <div style="text-align: center; margin-bottom: 20px;"><img style="height: 50px;" src="consulting.svg" alt="Consulting Symbol"/></div>
+                        <h4 style="color: #800000">Consulting</h4>
+                        <p style="text-align: justify;">
+                            Custom problems require custom solutions. We can guide you to economic solutions to your specific problems.
+                            Besides customer-guided development, ZetaLabs assists you in utilizing existing FOSS solutions.
+                        </p>
+                        <p style="text-align: center;"><a class="btn btn-secondary" href="#consulting" role="button">More</a></p>
+                    </div>
+                </div>
+
+                <hr>
+            </div>
+
+            <h2 id="dev">From initial idea to final product.</h2>
+            <p style="text-align: center; font-style: italic; color: #888888;">Building custom applications and services. Together.</p>
+            <div class="container">
+                <div style="margin-top: 40px" class="row">
+                    <div class="col-md-7">
+                        <p>
+                            Building robust software can be challenging. Technology advances rapidly, resources and infrastructure can be limited and user requirements
+                            may change. ZetaLabs tries to mitigate these problems by taking a customer-first approach and including users in the whole development process to collect feedback early.
+                        <p>
+                        <p>
+                            Although we are always up-to-date with new technologies, we also value and use proven and robust software that stood the test of time. In
+                            particular, we are aware of many battle-tested free and open-source (<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a>)
+                            software projects that can help to decrease development time and increase product quality.
+                        <p>
+                    </div>
+                    <div class="col-md-5">
+                        <div style="text-align: center"><img style="border-radius: 20px; height: 250px;" src="code.jpg" alt="Coding"/></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="processing">Big data? No problem.</h2>
+            <p style="text-align: center; font-style: italic; color: #888888;">Affordable big data processing using elastic infrastructure.</p>
+            <div class="container">
+                <div style="margin-top: 40px" class="row">
+                    <div class="col-md-5">
+                        <div style="text-align: center">
+                            <img style="border-radius: 20px; height: 250px;" src="processing.jpg" alt="Scientific Computing"/>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            Recently there has been a Cambrian explosion of scientific data availability across different domains. Notably sensor and GIS data is
+                            available as <a href="https://en.wikipedia.org/wiki/Open_data">open data</a> from several sources which makes it possible to analyze and visualize vast amounts of data to gain new
+                            insights into natural or man-made processes.
+                        </p>
+                        <p>
+                            Different datasets are hosted
+                            on different platforms and offer varying protocols and <a href="https://en.wikipedia.org/wiki/Application_programming_interface">API</a>s to access them.
+                            ZetaLabs will help you in accessing, processing and refining this data by merging your existing domain-specific knowledge with our understanding utilizing public or private
+                            compute capabilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="consulting">Challenge us!</h2>
+            <p style="text-align: center; font-style: italic; color: #888888;">Unique problems need unique solutions.</p>
+            <div class="container">
+                <div style="margin-top: 40px" class="row">
+                    <div class="col-md-7">
+                        <p>
+                            While we love to craft new applications and libraries, we are well aware of existing technologies. Sometimes it is not necessary to implement a
+                            new solution from scratch, but to utilize or adapt existing software or libraries.
+                        </p>
+                        <p>
+                            Furthermore we offer advice, training and tutorials for multiple software projects to support you and your team in gaining the skills to finish your next project.
+                        </p>
+                        <p>
+                            Finally, we always like to tackle new problems or just talk about the custom challenges you face. Please do not hesitate to contact us.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <div style="text-align: center"><img style="border-radius: 20px; height: 250px;" src="consult.jpg" alt="Consulting"/></div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+            <h2>Contact</h2>
+            <p style="text-align: center; font-style: italic; color: #888888;">Get in touch.</p>
+            <div class="container" id="contact">
+                <div style="margin-top: 40px" class="row">
+                    <div id="mapid" style="width: 500px; height: 300px; border-radius: 20px; margin-right: 64px;"></div>
+                    <div class="col-md-6">
+                    <dl class="row">
+                        <dt class="col-md-3">Address</dt>
+                        <dd class="col-md-9">
+                        <strong>ZetaLabs IT Services</strong><br />
+                        Ulrich Kastlunger<br />
+                        Schumannstraße 6, Top 25<br />
+                        6020 Innsbruck<br />
+                        Austria<br />
+                        </dd>
+                        <dt class="col-md-3">E-Mail</dt><dd class="col-md-9">info@zetalabs.io</dd>
+                    </dl>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </main>
+
+        <footer class="container" style="text-align: center;">
+            <p>2020 &copy; ZetaLabs IT Services</p>
+            <!-- TODO: Impressum, AGB, Datenschutz? -->
+        </footer>
+    <script>
+        var map = L.map('mapid');
+
+        L.tileLayer('https://{s}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png', {
+            maxZoom: 18,
+            attribution: 'Datenquelle: <a href="https://basemap.at">basemap.at</a>',
+            subdomains: ['maps1', 'maps2', 'maps3', 'maps4'],
+        }).addTo(map);
+
+        let marker = L.marker([47.27747, 11.40276]);
+        marker.addTo(map);
+        let marker_bounds = L.latLngBounds([marker.getLatLng()]);
+        map.fitBounds(marker_bounds);
+        map.setZoom(11);
+    </script>
+    </body>
+</html>
+

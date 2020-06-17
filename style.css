@@ -1,0 +1,43 @@
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+h1 a {
+    color: #ffffff;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+	color: #800000;
+}
+
+h3 {
+    text-align: center;
+	color: #800000;
+}
+
+h4 {
+    text-align: center;
+}
+
+#spacediv {
+    color: white;
+    background-image: url("space.jpg");
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+
+.cards {
+    padding-top: 70px;
+}
+
+.projects {
+    padding-top: 30px;
+}
+
