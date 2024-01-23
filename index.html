@@ -175,7 +175,7 @@
     <script>
         var map = L.map('mapid');
         let coords = [47.27747, 11.40276];
-		L.tileLayer('./{z}/{x}/{y}.png', {tms: 1, opacity: 1.0, attribution: "", minZoom: 1, maxZoom: 18}).addTo(map);
+		L.tileLayer('https://turmfalke.httpd.app/{z}/{x}/{y}.png', {tms: 1, opacity: 1.0, attribution: "", minZoom: 1, maxZoom: 18}).addTo(map);
 
         let marker = L.marker(coords);
         marker.addTo(map);
