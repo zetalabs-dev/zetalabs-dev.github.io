@@ -175,12 +175,7 @@
     <script>
         var map = L.map('mapid');
         let coords = [47.27747, 11.40276];
-
-        L.tileLayer('https://{s}.wien.gv.at/basemap/geolandbasemap/normal/google3857/{z}/{y}/{x}.png', {
-            maxZoom: 18,
-            attribution: 'Datenquelle: <a href="https://basemap.at">basemap.at</a>',
-            subdomains: ['maps1', 'maps2', 'maps3', 'maps4'],
-        }).addTo(map);
+		L.tileLayer('./{z}/{x}/{y}.png', {tms: 1, opacity: 1.0, attribution: "", minZoom: 1, maxZoom: 18}).addTo(map);
 
         let marker = L.marker(coords);
         marker.addTo(map);
